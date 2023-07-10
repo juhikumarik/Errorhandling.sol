@@ -5,7 +5,7 @@ pragma solidity ^0.8.17;
 contract ErrorHandling {
 
     // uint public num = 0;
-    uint b=5;
+    uint b=10;
 
     function testAssert(uint num) public pure{
         assert(num!=0);
