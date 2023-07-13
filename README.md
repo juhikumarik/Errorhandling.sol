@@ -1,10 +1,11 @@
 # Errorhandling.sol
 juhiToken Contract
+
 Contract Details
 The contract contains the following variables and functions:
 
 uint public num = 0: A public unsigned integer variable named num with an initial value of 0.
-uint b = 5: An unsigned integer variable named b with a value of 5.
+uint b = 10: An unsigned integer variable named b with a value of 10.
 testAssert(uint num)
 The testAssert function is a pure function that takes a parameter num. It uses the assert statement to validate that num is not equal to zero. If the condition is not met, it will throw an exception.
 
@@ -20,7 +21,7 @@ pragma solidity ^0.8.17;
 contract ErrorHandling {
 
     // uint public num = 0;
-    uint b=5;
+    uint b=10;
 
     function testAssert(uint num) public pure{
         assert(num!=0);
@@ -43,7 +44,9 @@ contract ErrorHandling {
     }
 
 }
+
 AUTHOR NAME
 juhikumarik
+
 License
 This contract is licensed under the MIT License
